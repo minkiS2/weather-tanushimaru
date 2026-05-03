@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -449,7 +450,7 @@
     <summary>このアプリについて</summary>
     <p><strong>データ提供：</strong> Open-Meteo（気象庁JMAモデル含む）<br>
     過去データは ERA5 再解析データ、予報は JMA-MSM モデル（時間単位）／JMA週間予報モデル（日単位）を使用しています。</p>
-    <p><strong>地点：</strong> 福岡県久留米市田主丸町（北緯33.34°、東経130.65°）</p>
+    <p><strong>地点：</strong> 福岡県久留米市田主丸町（33°19'45.2"N／130°42'44.5"E ＝ 33.3292°N、130.7124°E）</p>
     <p><strong>注意：</strong> ピンポイント天気のため、最寄りの気象台（久留米AMeDAS）の値とは多少異なる場合があります。</p>
   </details>
 </main>
@@ -461,8 +462,8 @@
 
 <script>
 // ===== 設定 =====
-const LATITUDE = 33.34;
-const LONGITUDE = 130.65;
+const LATITUDE = 33.3292;   // 33°19'45.2"N
+const LONGITUDE = 130.7124; // 130°42'44.5"E
 const TIMEZONE = "Asia/Tokyo";
 
 // 日単位
